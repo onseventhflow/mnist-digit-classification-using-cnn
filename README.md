@@ -1,69 +1,72 @@
-MNIST Digit Classification Using Neural Network
+# MNIST Digit Classification Using Neural Network
 
 A machine learning project that implements handwritten digit classification on the MNIST dataset using a fully connected neural network built with TensorFlow and Keras.
 
-Overview
+---
 
-This repository demonstrates the design, training, and evaluation of a neural network model for classifying grayscale images of handwritten digits (0–9).
-The project focuses on clean implementation, reproducibility, and clear documentation following industry GitHub standards.
+## Overview
 
-Problem Statement
+This repository demonstrates the design, training, and evaluation of a neural network model for classifying grayscale images of handwritten digits (0–9).  
+The project emphasizes clean implementation, reproducibility, and clear documentation aligned with industry GitHub standards.
 
-Given a 28×28 grayscale image of a handwritten digit, predict the correct digit class (0–9).
+---
 
-Solution Approach
+## Problem Statement
 
-Normalize image pixel values to improve numerical stability
+Given a **28×28 grayscale image** of a handwritten digit, predict the correct digit class (**0–9**).
 
-Flatten image inputs for neural network processing
+---
 
-Train a fully connected neural network using backpropagation
+## Solution Approach
 
-Evaluate model performance on unseen test data
+- Normalize image pixel values to improve numerical stability  
+- Flatten image inputs for neural network processing  
+- Train a fully connected neural network using backpropagation  
+- Evaluate model performance on unseen test data  
 
-Model Details
+---
 
-Architecture: Fully Connected Neural Network (Dense layers)
+## Model Details
 
-Activation Functions: ReLU (hidden), Softmax (output)
-
-Loss Function: Sparse Categorical Cross-Entropy
-
-Optimizer: Adam
+- **Architecture:** Fully Connected Neural Network (Dense layers)  
+- **Activation Functions:** ReLU (hidden), Softmax (output)  
+- **Loss Function:** Sparse Categorical Cross-Entropy  
+- **Optimizer:** Adam  
 
 This architecture provides a strong baseline for image classification tasks and serves as a foundation for more advanced models.
 
-Technology Stack
+---
 
-Python
+## Technology Stack
 
-TensorFlow / Keras
+- Python  
+- TensorFlow / Keras  
+- NumPy  
+- Matplotlib  
 
-NumPy
+---
 
-Matplotlib
+## Dataset
 
-Dataset
+- **Name:** MNIST  
+- **Training samples:** 60,000  
+- **Test samples:** 10,000  
+- **Image resolution:** 28 × 28 (grayscale)  
+- **Number of classes:** 10  
 
-Name: MNIST
+---
 
-Training samples: 60,000
+## Results
 
-Test samples: 10,000
+- The model achieves high accuracy on the MNIST test dataset  
+- Predictions are visualized to validate classification performance  
+- Demonstrates effective learning using a simple neural network baseline  
 
-Image resolution: 28 × 28 (grayscale)
+---
 
-Number of classes: 10
+## Repository Structure
 
-Results
-
-The model achieves high accuracy on the MNIST test set
-
-Predictions are visualized to validate classification performance
-
-Demonstrates effective learning using a simple neural network baseline
-
-Repository Structure
+```text
 mnist-digit-classification-using-neural-network/
 │
 ├── notebooks/
@@ -71,12 +74,5 @@ mnist-digit-classification-using-neural-network/
 │
 ├── README.md
 ├── requirements.txt
-└── LICENSE
+└── LICENSE```
 
-Future Scope
-
-Extend the model using Convolutional Neural Networks (CNNs)
-
-Add detailed evaluation metrics such as confusion matrix
-
-Deploy the model as a lightweight web application
