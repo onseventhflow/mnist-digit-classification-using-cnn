@@ -56,11 +56,16 @@ This architecture provides a strong baseline for image classification tasks and 
 
 ---
 
-## Results
 
-- The model achieves high accuracy on the MNIST test dataset  
-- Predictions are visualized to validate classification performance  
-- Demonstrates effective learning using a simple neural network baseline  
+- ## Results
+
+The model achieves high accuracy on the MNIST test dataset and demonstrates stable training behavior.
+
+### Training Loss Curve
+![Loss vs Epochs](assets/Loss%20Vs%20Epochs.png)
+
+### Sample Prediction Output
+![Prediction Example](assets/prediction_example.png)  
 
 ---
 
@@ -76,14 +81,6 @@ mnist-digit-classification-using-neural-network/
 ├── requirements.txt
 └── LICENSE```
 
-## Results
 
-The model achieves high accuracy on the MNIST test dataset and demonstrates stable training behavior.
-
-### Training Loss Curve
-![Loss vs Epochs](assets/Loss%20Vs%20Epochs.png)
-
-### Sample Prediction Output
-![Prediction Example](assets/prediction_example.png)
 
 
